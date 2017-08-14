@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.lancer.circlepercent.CirclePercentView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle_percent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:centerTextSize="12sp"
+        app:percent="1"
+        app:stripeWidth="2dp" />
+
+    <EditText
+        android:id="@+id/circle_percent_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/circle_percent_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="从新加载" />
+</LinearLayout>
